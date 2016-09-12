@@ -1,0 +1,10 @@
+default:
+  host: localhost
+  db: todo-api
+  traceLevel: debug
+  port: 8000
+  logPath: logs
+development:
+  traceLevel: debug
+production:
+  traceLevel: info
